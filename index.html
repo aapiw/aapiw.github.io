@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/png">
+
+         <!---=============== batass REMIXICONS ===============<-->                                      
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!---=============== batass SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+       <!---=============== batass CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="main.css" />
+
+        <title>Finology</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo"><img src="assets/img/finology-logo.png" alt="gambar-logo" ></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Beranda</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Tentang Kami</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Program</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Penghargaan</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#calculator" class="nav__link">Kalkulator Instant</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!---=============== batass change button -->
+                        <span class="change-theme-name">Mode Gelap</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+             <!---=============== batass HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/head.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Rasakan Manfaatnya</span>
+                        <h1 class="home__data-title">Bergabunglah <br> Ini <b>Memudahkan Perjalanan <br> Hidup Anda</b></h1>
+                        <a href="#" class="button">Mulai</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">5 program unggulan kami</span>
+                            <a href="" class="button button--flex button--link home__info-button">
+                                Selengkapnya <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home2.png" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+           <!---=============== batass ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Kontak Kami</h2>
+
+ 
+                        <p class="about__description">Ingin tahu apa yang bisa kami lakukan untuk Anda? Ayo mulai Hubungi!</p>
+                        <a href="#" class="button">Mulai</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/discover1.png" alt="" height="70%" width="66%" class=""> <!---dipaehan js na kelasna iyeu about__img-one      ------>
+                        </div>
+                        </div>
+                </div>
+            </section>
+            
+             <!---=============== batass DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Apa Saja yang Kami Layani<br> </h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!---=============== batass DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Banking Industry</h2>
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+
+                         <!---=============== batass batass DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover2.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Property Industry</h2>
+                             
+                            </div>
+                        </div>
+
+                        <!---=============== batass DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Insurance Industry</h2>
+                                <span class="discover__description">18 tours available</span>
+                            </div>
+                        </div>
+
+                        <!---=============== batass DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover4.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Digital Platform</h2>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!---=============== batass EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">Dengan Pengalaman
+                <br> Kami Akan Melayani Anda</h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">20</h2>
+                            <span class="experience__description">Tahun <br> Perjalanan</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">75</h2>
+                            <span class="experience__description">Program<br>Sukses</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">650+</h2>
+                            <span class="experience__description">Member <br> Merasakan Manfaat</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience1.jpg" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience2.jpg" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!---=============== batass VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Apa Yang Membuatmu Ragu?</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Kami Menjadikan produk keuangan mudah diakses dan lancar bagi semua orang kapan pun dan di mana pun.
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!---=============== batass PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Penghargaan Yang Diberikan Kepada Kami</h2>
+                <br>
+
+                <div class="place__container container grid">
+                    <!---=============== batass PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place1.png" alt="" class=""> <!---=============== place__img JS DIPAEHAN PLACES ====================-->
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                
+                            </span>
+
+                           <!-- <div class="place__data">
+                                <h3 class="place__title">Bali</h3>
+                                <span class="place__subtitle">Indonesia</span>
+                                <span class="place__price">$2499</span>
+                            </div> --->
+                        </div>
+
+                        <!---====== <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>======-->
+                    </div>
+
+                    <!---=============== batass PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place2.png" alt="" class=""> <!---=============== place__img JS DIPAEHAN. PLACES ====================-->
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                               
+                            </span>
+
+
+                         <!--   <div class="place__data">
+                                <h3 class="place__title">Bora Bora</h3>
+                                <span class="place__subtitle">Polinesia</span>
+                                <span class="place__price">$1599</span>
+                            </div> --->
+                        </div>
+
+                         <!---====== <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>======-->
+                    </div>
+
+                    <!---=============== batass PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place3.png" alt="" class="">  <!---=============== place__img JS DIPAEHAN. PLACES ====================-->
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                               
+                            </span>
+
+                           <!--- <div class="place__data">
+                                <h3 class="place__title">Hawaii</h3>
+                                <span class="place__subtitle">EE.UU</span>
+                                <span class="place__price">$3499</span>
+                            </div> --->
+                        </div>
+
+                       <!---====== <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>======-->
+                    </div>
+
+                    <!---=============== batassPLACES CARD 4 ====================-->
+                 
+
+                    <!---=============== batass PLACES CARD 5 ====================-->
+                   
+                </div>
+            </section>
+
+            <!---=============== batass  SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">Berlanggananlah <br> Untuk Mendapatkan Informasi Lebih</h2>
+                        <p class="subscribe__description">Yang Memungkinkan Anda Mendapatkan Diskon 30%.
+                        </p>
+    
+                        <form action="" class="subscribe__form">
+                            <input type="text" placeholder="Masukkan email" class="subscribe__input">
+    
+                            <button class="button">
+                                Berlangganan
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+            <!---=============== batass SPONSORS ====================-->
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/bank_aladin.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
+                    </div>
+                </div>
+            </section>
+
+            <!---=============== batass kalkulator ====================-->
+
+<section class="calculator section mr50" id="calculator">
+            <div class="calculator">
+
+            <div class="display">
+                <div class="content">
+                    <div class="input"></div>
+                    <div class="output"></div>
+                </div>
+            </div>
+
+            <div class="keys">
+
+                <div data-key="clear" class="key action">
+                    <span>AC</span>
+                </div>
+
+                <div data-key="brackets" class="key action">
+                    <span>( )</span>
+                </div>
+
+                <div data-key="%" class="key action">
+                    <span>%</span>
+                </div>
+
+                <div data-key="/" class="key operator">
+                    <span>÷</span>
+                </div>
+
+                <div data-key="7" class="key">
+                    <span>7</span>
+                </div>
+
+                <div data-key="8" class="key">
+                    <span>8</span>
+                </div>
+
+                <div data-key="9" class="key">
+                    <span>9</span>
+                </div>
+
+                <div data-key="*" class="key operator">
+                    <span>x</span>
+                </div>
+
+                <div data-key="4" class="key">
+                    <span>4</span>
+                </div>
+
+                <div data-key="5" class="key">
+                    <span>5</span>
+                </div>
+
+                <div data-key="6" class="key">
+                    <span>6</span>
+                </div>
+
+                <div data-key="-" class="key operator">
+                    <span>-</span>
+                </div>
+
+                <div data-key="1" class="key">
+                    <span>1</span>
+                </div>
+
+                <div data-key="2" class="key">
+                    <span>2</span>
+                </div>
+
+                <div data-key="3" class="key">
+                    <span>3</span>
+                </div>
+
+                <div data-key="+" class="key operator">
+                    <span>+</span>
+                </div>
+
+                <div data-key="backspace" class="key action">
+                    <span>&lt;</span>
+                </div>
+
+                <div data-key="0" class="key">
+                    <span>0</span>
+                </div>
+
+                <div data-key="." class="key">
+                    <span>.</span>
+                </div>
+                
+                <div data-key="=" class="key operator">
+                    <span>=</span>
+                </div>
+            </div>
+        </section>
+
+        </div>
+        </main>
+
+       <!---=============== batass FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title"> Finology</h3>
+                        <p class="footer__description">Making financial products accessible and seamless for everyone everywhere.
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Plan y Pricing</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2023 Finology. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Syarat Dan Ketentuan Berlaku</a>
+                        <a href="#" class="footer__terms-link">Kebijakan Privasi</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!---=============== batass SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!---=============== batass SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!---=============== batass SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+       <!---=============== batass MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+         <script src="main.js"></script>
+    </body>
+</html>
